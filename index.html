@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Portofolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onc lick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+
+        </ul>
+    </header>
+
+    <!-- Container -->
+    <section class="banner" id="home">
+
+        <div class="textBx">
+            <h2>Hello, I'm <br> <span>Ahmad Sarian</span></h2>
+            <h3>Front End Developer</h3>
+            <a class="btn" href="#about">About Me</a>
+        </div>
+
+    </section>
+
+    <!-- Profile -->
+    <section class="about" id="about">
+        
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+
+        <div class="content">
+
+            <div class="content8x w50">
+                <h3>Front-end Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nulla fugit nobis cupiditate, iste laborum ab tenetur repellendus fugiat illo quos modi, architecto atque maiores aut ipsum eaque mollitia deleniti. <br><br></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas rerum labore maiores velit ullam beatae, veniam voluptatem, voluptatum praesentium incidunt dicta, eos facere quod commodi in minima quis corporis!</p>
+            </div>
+
+            <div class="w50">
+                <img src="img/img1.jpg" class="img" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+
+        <div class="heading white">
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="content">
+
+            <div class="service8x">
+                <img src="img/icon1.png" alt="">
+                <h2>UI/UX Design</h2>
+            </div>
+            <div class="service8x">
+                <img src="img/icon2.png" alt="">
+                <h2>Web Development</h2>
+            </div>
+            <div class="service8x">
+                <img src="img/icon3.png" alt="">
+                <h2>Android Development</h2>
+            </div>
+            <div class="service8x">
+                <img src="img/icon4.png" alt="">
+                <h2>Photography</h2>
+            </div>
+            <div class="service8x">
+                <img src="img/icon5.png" alt="">
+                <h2>Content Writing</h2>
+            </div>
+            <div class="service8x">
+                <img src="img/icon6.png" alt="">
+                <h2>Video Editing</h2>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Work -->
+    <section class="work" id="work">
+
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+        </div>
+
+        <div class="content">
+
+            <div class="work8x">
+                <img src="img/product1.jpg" alt="">
+            </div>
+            <div class="work8x">
+                <img src="img/product2.jpg" alt="">
+            </div>
+            <div class="work8x">
+                <img src="img/product3.jpg" alt="">
+            </div>
+            <div class="work8x">
+                <img src="img/product4.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div> 
+
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial" id="testimonial">
+
+        <div class="heading">
+            <h2>Testimonial</h2>
+        </div>
+        <div class="content">
+            <div class="testimonial8x">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum omnis nemo sunt, perspiciatis possimus, odio, non eaque praesentium quo deserunt impedit laboriosam. Deserunt earum unde laudantium consequuntur quia quos?</p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonial8x">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum omnis nemo sunt, perspiciatis possimus, odio, non eaque praesentium quo deserunt impedit laboriosam. Deserunt earum unde laudantium consequuntur quia quos?</p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+
+        <div class="heading white">
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfo8x">
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>4671 Sugar Camp Road. <br>Owatonna, Minnesota, <br>55060</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>856-734-3254</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>salogy@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="form8x">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea name="" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="copyright">
+        <p>Copyright @ 2020 Salogy. All Right Reserved.</p>
+    </div>
+
+    <!-- javascript -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
